@@ -39,7 +39,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background("brown");
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
@@ -61,4 +61,8 @@ function draw(){
 
     bird.display();
     platform.display();
+
+
+
+
 }
